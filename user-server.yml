@@ -1,5 +1,5 @@
 server:
-  port: 2801
+  port: 2807
 
 spring:
   datasource:
@@ -9,7 +9,7 @@ spring:
     initialize: true
     password: passerapasici
     schema: classpath:/schema.sql
-    url: jdbc:mysql://localhost:3306/admin_dba
+    url: jdbc:mysql://localhost:3306/user_dba
     username: root
   jpa:
     hibernate:
